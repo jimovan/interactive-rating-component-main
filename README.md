@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-solution-XlGTsrzNdR]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-XlGTsrzNdR))
+- Solution URL: [https://www.frontendmentor.io/solutions/interactive-rating-component-solution-XlGTsrzNdR](https://www.frontendmentor.io/solutions/interactive-rating-component-solution-XlGTsrzNdR)
 - Live Site URL: [https://jimovan.github.io/interactive-rating-component-main/](https://jimovan.github.io/interactive-rating-component-main/)
 
 ## My process
