@@ -1,0 +1,122 @@
+@import "variables";
+@import "globals";
+
+.rating-card {
+    display: grid;
+    background-color: $clr-blue;
+    
+    padding: 1.5rem 1rem;
+    width: 21rem;
+    border-radius: 1.25rem;
+}
+
+.circle {
+    color: $clr-light-grey;
+    background-color: $clr-medium-grey;
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form {
+    display: grid;
+    gap: 1.75rem;
+
+    &__star{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            width: 50%;
+        }
+    }
+
+    &__content {
+        display: grid;
+        gap: .75rem;       
+    }
+
+    &__statement {
+        line-height: 1.6;
+    }
+
+    &__title {
+        color: $clr-white;
+        font-size: 1.5rem;
+        font-weight: $fw-bold;
+    }
+
+    &__btn-group {
+        display: flex;
+        justify-content: space-between;
+
+        .circle {
+            text-align: center;
+        }
+
+        .circle:hover {
+            color: $clr-white;
+            background-color: $clr-light-grey;
+            cursor: pointer;
+        }
+    }
+
+    &__btn-submit {
+        color: $clr-white;
+        background-color: $clr-orange;
+        font-weight: $fw-bold;
+        border-radius: 10rem;
+        border: none;
+        padding: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: .1rem;
+    }
+
+    &__btn-submit:hover {
+        color: $clr-orange;
+        background-color: $clr-white;
+        cursor: pointer;
+    }
+}
+
+.active {
+    color: $clr-white;
+    background-color: $clr-orange;
+}
+
+.thanks {
+    display: none;
+    justify-items: center;
+    align-items: center;
+    gap: 1.75rem;
+
+    &__result {
+        color: $clr-orange;
+        background-color: $clr-medium-grey;
+        border-radius: 10rem;
+        border: none;
+        padding: 0.5rem 1rem;
+    }
+
+    &__content{
+        display: grid;
+        justify-items: center;
+        gap: .75rem;
+    }
+
+    &__title {
+        color: $clr-white;
+        font-size: 1.5rem;
+        font-weight: $fw-bold;
+    }
+
+    p {
+        text-align: center;
+        line-height: 1.6;
+    }
+}
